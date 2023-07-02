@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 import buildspaceLogo from '../assets/Group 71.png';
+import erotibotLogo from '../assets/erotibot-logo.png';
 import { useState } from 'react';
 
 const Home = () => {
@@ -131,6 +132,7 @@ const Home = () => {
           <div className="header-title">
             <h1>Fantasy Bot</h1>
           </div>
+          <Image src={erotibotLogo} alt="Slut" />
           <div className="header-subtitle">
             <h2>What is your wildest fantasy?</h2>
           </div>
